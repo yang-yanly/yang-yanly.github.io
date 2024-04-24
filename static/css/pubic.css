@@ -18,9 +18,13 @@ header {
     position: absolute;
     left: 0;
     top: 0;
+    padding: 0 15px;
     background: rgba(0, 0, 0, .75); 
     color: #fff;
-    font-size: 24px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     text-align: center;
     line-height: 60px;
 }
